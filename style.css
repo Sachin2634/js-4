@@ -9,7 +9,15 @@ html, body{
     width: 100%;
 }
 
-#rect{
+#main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rect{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -17,5 +25,6 @@ html, body{
     width: 200px;
     height: 300px;
     background-color: red;
-    transition: all linear 0.2s;
+    transition: ease-in ;
 }
+
